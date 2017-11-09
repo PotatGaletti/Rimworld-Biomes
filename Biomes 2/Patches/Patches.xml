@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+
+	<Operation Class="PatchOperationReplace"> <!-- Start of Biome modification -->
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/animalDensity</xpath>
+		<value>
+			<animalDensity>3.5</animalDensity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/plantDensity</xpath>
+		<value>
+			<plantDensity>1.0</plantDensity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildPlants</xpath>
+		<value>
+			<wildPlants>
+
+				<PlantGrass>8.0</PlantGrass>
+				<PlantDandelion>0.8</PlantDandelion>
+				<PlantBush>0.7</PlantBush>
+				<PlantTreeOak>0.5</PlantTreeOak>
+				<PlantTreePoplar>0.5</PlantTreePoplar>
+				<PlantRaspberry>0.1</PlantRaspberry>
+				<PlantWildHealroot>0.05</PlantWildHealroot>
+				<PlantHuckleberryBush>0.3</PlantHuckleberryBush>
+				<PlantMorel>0.1</PlantMorel>
+				<PlantTrillium>0.6</PlantTrillium>
+				<PlantGoldenrod>0.7</PlantGoldenrod>
+				<PlantWildGarlic>0.2</PlantWildGarlic>
+				<PlantChanterelle>0.1</PlantChanterelle>
+				<PlantSpringBeauty>0.5</PlantSpringBeauty>
+				<PlantChestnut>0.5</PlantChestnut>
+				<PlantMaple>0.5</PlantMaple>
+				<PlantAmaranth>0.2</PlantAmaranth>
+				<PlantYellowBirch>0.5</PlantYellowBirch>
+				<PlantOakAOrange>0.5</PlantOakAOrange>
+				<PlantOakBOrange>0.5</PlantOakBOrange>
+		    </wildPlants>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace"> <!-- End of Biome modification -->
+		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildAnimals</xpath>
+		<value>
+			<wildAnimals>
+				<LandSnail>0.7</LandSnail>
+				<Hare>1.00</Hare>
+				<Squirrel>1.00</Squirrel>
+				<Rat>0.8</Rat>
+				<Deer>0.5</Deer>
+				<WildBoar>0.5</WildBoar>
+				<Turkey>0.5</Turkey>
+				<Raccoon>0.4</Raccoon>
+				<Tortoise>0.4</Tortoise>
+				<Ibex>0.3</Ibex>
+				<Boomrat>0.25</Boomrat>
+				<Muffalo>0.2</Muffalo>
+				<Boomalope>0.2</Boomalope>
+				<Alpaca>0.1</Alpaca>
+				<Emu>0.1</Emu>
+				<Ostrich>0.1</Ostrich>
+				<Gazelle>0.05</Gazelle>
+				<WolfTimber>0.04</WolfTimber>
+				<FoxRed>0.04</FoxRed>
+				<Megasloth>0.04</Megasloth>
+				<GrizzlyBear>0.022</GrizzlyBear>
+				<Warg>0.012</Warg>
+				<Cougar>0.012</Cougar>
+				<Lynx>0.008</Lynx>
+			</wildAnimals>
+		</value>
+	</Operation>
+
+</Patch>
+
+

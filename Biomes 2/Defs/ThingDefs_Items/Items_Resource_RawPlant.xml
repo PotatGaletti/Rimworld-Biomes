@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Defs>
+
+</ThingDef>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>ProductAmaranth</defName>
+<label>Amaranth</label>
+<description>Raw amaranth.</description>
+<soundInteract>Grain_Drop</soundInteract>
+<soundDrop>Grain_Drop</soundDrop>
+<graphicData>
+<texPath>Things/Item/Resource/PlantFoodRaw/AmaranthProduct</texPath>
+</graphicData>
+<statBases>
+<MarketValue>1.5</MarketValue>
+</statBases>
+<ingestible>
+<foodType>Seed</foodType>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>40</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+
+
+</ThingDef>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>ProductHuckleberries</defName>
+<label>Huckleberries</label>
+<description>Huckleberries. Nice to eat, even when raw.</description>
+<graphicData>
+<texPath>Things/Item/Resource/PlantFoodRaw/HuckleberriesProduct</texPath>
+</graphicData>
+<statBases>
+<MarketValue>2.0</MarketValue>
+<Mass>0.027</Mass>
+</statBases>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>14</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+-<ingestible>
+<preferability>RawTasty</preferability>
+<tasteThought/>
+<foodType>VegetableOrFruit</foodType>
+</ingestible>
+</ThingDef>
+<!-- Plant matter (inedible by people) -->
+<ThingDef ParentName="OrganicProductBase" Name="RoughPlantBase" Abstract="True">
+<ingestible>
+<foodType>Plant</foodType>
+<preferability>DesperateOnly</preferability>
+<nutrition>0.05</nutrition>
+</ingestible>
+</ThingDef>
+
+
+</ThingDef>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>ProductMorels</defName>
+<label>Morels</label>
+<description>Raw morels.</description>
+<graphicData>
+<texPath>Things/Item/Resource/PlantFoodRaw/MorelsProduct</texPath>
+</graphicData>
+<statBases>
+<MarketValue>30</MarketValue>
+</statBases>
+<ingestible>
+<foodType>VegetableOrFruit</foodType>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>9</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+
+
+</ThingDef>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>ProductChanterelles</defName>
+<label>Chanterelles</label>
+<description>Raw chanterelles.</description>
+<graphicData>
+<texPath>Things/Item/Resource/PlantFoodRaw/ChanterellesProduct</texPath>
+</graphicData>
+<statBases>
+<MarketValue>30</MarketValue>
+</statBases>
+<ingestible>
+<foodType>VegetableOrFruit</foodType>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>9</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+
+
+</ThingDef>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>ProductWildGarlic</defName>
+<label>Wild Garlic</label>
+<description>Uncooked wild garlic.</description>
+<graphicData>
+<texPath>Things/Item/Resource/PlantFoodRaw/WildGarlicProduct</texPath>
+</graphicData>
+<statBases>
+<MarketValue>1.5</MarketValue>
+</statBases>
+<ingestible>
+<foodType>VegetableOrFruit</foodType>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>20</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+
+
+</ThingDef>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>ProductRamps</defName>
+<label>Ramps</label>
+<description>Uncooked ramps.</description>
+<graphicData>
+<texPath>Things/Item/Resource/PlantFoodRaw/RampsProduct</texPath>
+</graphicData>
+<statBases>
+<MarketValue>1.5</MarketValue>
+</statBases>
+<ingestible>
+<foodType>VegetableOrFruit</foodType>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>20</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+
+</ThingDef>
+<ThingDef ParentName="PlantFoodRawBase">
+<defName>ProductChestnut</defName>
+<label>Chestnuts</label>
+<description>Raw chestnuts. Not pleasant to eat.</description>
+<graphicData>
+<texPath>Things/Item/Resource/PlantFoodRaw/ChestnutsProduct</texPath>
+</graphicData>
+-<statBases>
+<MarketValue>1.7</MarketValue>
+</statBases>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>50</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+<ingestible>
+<foodType>Seed</foodType>
+</ingestible>
+<comps>
+<li Class="CompProperties_Rottable">
+<daysToRotStart>50</daysToRotStart>
+<rotDestroys>true</rotDestroys>
+</li>
+</comps>
+
+
+</Defs>
