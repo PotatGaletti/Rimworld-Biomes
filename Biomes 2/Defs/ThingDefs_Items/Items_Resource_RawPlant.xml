@@ -24,9 +24,8 @@
 <rotDestroys>true</rotDestroys>
 </li>
 </comps>
-
-
 </ThingDef>
+  
 <ThingDef ParentName="PlantFoodRawBase">
 <defName>ProductHuckleberries</defName>
 <label>Huckleberries</label>
@@ -44,7 +43,7 @@
 <rotDestroys>true</rotDestroys>
 </li>
 </comps>
--<ingestible>
+<ingestible>
 <preferability>RawTasty</preferability>
 <tasteThought/>
 <foodType>VegetableOrFruit</foodType>
@@ -59,8 +58,6 @@
 </ingestible>
 </ThingDef>
 
-
-</ThingDef>
 <ThingDef ParentName="PlantFoodRawBase">
 <defName>ProductMorels</defName>
 <label>Morels</label>
@@ -80,9 +77,8 @@
 <rotDestroys>true</rotDestroys>
 </li>
 </comps>
-
-
 </ThingDef>
+  
 <ThingDef ParentName="PlantFoodRawBase">
 <defName>ProductChanterelles</defName>
 <label>Chanterelles</label>
@@ -102,9 +98,9 @@
 <rotDestroys>true</rotDestroys>
 </li>
 </comps>
-
-
 </ThingDef>
+  
+ 
 <ThingDef ParentName="PlantFoodRawBase">
 <defName>ProductWildGarlic</defName>
 <label>Wild Garlic</label>
@@ -124,9 +120,8 @@
 <rotDestroys>true</rotDestroys>
 </li>
 </comps>
-
-
 </ThingDef>
+  
 <ThingDef ParentName="PlantFoodRawBase">
 <defName>ProductRamps</defName>
 <label>Ramps</label>
@@ -146,8 +141,8 @@
 <rotDestroys>true</rotDestroys>
 </li>
 </comps>
-
 </ThingDef>
+  
 <ThingDef ParentName="PlantFoodRawBase">
 <defName>ProductChestnut</defName>
 <label>Chestnuts</label>
@@ -173,6 +168,6 @@
 <rotDestroys>true</rotDestroys>
 </li>
 </comps>
-
+</ThingDef>
 
 </Defs>
