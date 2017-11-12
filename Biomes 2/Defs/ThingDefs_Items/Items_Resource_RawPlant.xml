@@ -3,7 +3,6 @@
 
 <Defs>
 
-</ThingDef>
 <ThingDef ParentName="PlantFoodRawBase">
 <defName>ProductAmaranth</defName>
 <label>Amaranth</label>
