@@ -372,7 +372,7 @@
 <selectable>true</selectable>
 <fillPercent>0.35</fillPercent>
 <pathCost>80</pathCost>
--<ingestible>
+<ingestible>
 <preferability>RawBad</preferability>
 <nutrition>1.0</nutrition>
 </ingestible>
