@@ -9,7 +9,7 @@
     <label>Snail Egg(fert.)</label>
     <description>Fertilized snail egg.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggRound_b</texPath>
       <color>(245,245,245)</color>
     </graphicData>
     <statBases>
